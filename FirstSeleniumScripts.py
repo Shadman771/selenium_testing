@@ -15,18 +15,18 @@ driver.get("http://automationpractice.com/index.php")
 driver.find_element_by_xpath("/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a").click()
 time.sleep(3)
 # Input Registation Email
-driver.find_element_by_xpath("//*[@id=\"email_create\"]").send_keys("sa.m.p.le@gmail.com")
+driver.find_element_by_xpath("//*[@id=\"email_create\"]").send_keys("sa.m.p.l.e@gmail.com")
 driver.find_element_by_xpath("//*[@id=\"SubmitCreate\"]").click()
 time.sleep(3)
 # Form Fill
-driver.find_element_by_xpath("//*[@id='customer_firstname']").send_keys("Abdullah Al")
-driver.find_element_by_xpath("//*[@id='customer_lastname']").send_keys("Faroque")
+driver.find_element_by_xpath("//*[@id='customer_firstname']").send_keys("Shadman Khan")
+driver.find_element_by_xpath("//*[@id='customer_lastname']").send_keys("Shelon")
 driver.find_element_by_xpath("//*[@id='passwd']").send_keys("123456")
 
 # CheckBox
 driver.find_element_by_xpath("//*[@id='newsletter']").click()
 
-driver.find_element_by_xpath("//*[@id='address1']").send_keys("Maniknagar, Dhaka")
+driver.find_element_by_xpath("//*[@id='address1']").send_keys("Khilkhet, Dhaka")
 driver.find_element_by_xpath("//*[@id='city']").send_keys("Dhaka")
 
 state = Select(driver.find_element_by_name("id_state"))
