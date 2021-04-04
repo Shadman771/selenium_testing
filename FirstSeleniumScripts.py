@@ -15,7 +15,7 @@ driver.get("http://automationpractice.com/index.php")
 driver.find_element_by_xpath("/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a").click()
 time.sleep(3)
 # Input Registation Email
-driver.find_element_by_xpath("//*[@id=\"email_create\"]").send_keys("sa.m.p.l.e@gmail.com")
+driver.find_element_by_xpath("//*[@id=\"email_create\"]").send_keys("samplel.gmail.test@gmail.com")
 driver.find_element_by_xpath("//*[@id=\"SubmitCreate\"]").click()
 time.sleep(3)
 # Form Fill
